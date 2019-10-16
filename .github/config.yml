@@ -1,0 +1,27 @@
+# Configuration for welcome - https://github.com/behaviorbot/welcome
+
+# Configuration for new-issue-welcome - https://github.com/behaviorbot/new-issue-welcome
+
+# Comment to be posted to on first time issues
+newIssueWelcomeComment: >
+  Thanks for opening your first issue here!
+
+# Configuration for new-pr-welcome - https://github.com/behaviorbot/new-pr-welcome
+
+# Comment to be posted to on PRs from first time contributors in your repository
+newPRWelcomeComment: >
+  💖 Thanks for opening this pull request! 💖
+  
+  Things that will help get your PR across the finish line:
+  
+  - Make use of *Android Lint utility* to ensure that your code has no structural problems
+  - Follow [Android file naming and guidelines](https://github.com/ribot/android-guidelines/blob/master/project_and_code_guidelines.md).
+  - Please check out our contributing guidelines.
+
+# Configuration for first-pr-merge - https://github.com/behaviorbot/first-pr-merge
+
+# Comment to be posted to on pull requests merged by a first time user
+firstPRMergeComment: >
+  Congrats on merging your first pull request! 🎉🎉🎉
+
+# It is recommended to include as many gifs and emojis as possible!
