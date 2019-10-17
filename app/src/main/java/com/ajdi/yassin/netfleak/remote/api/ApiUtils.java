@@ -26,7 +26,7 @@ public class ApiUtils {
      * request
      */
 
-    {
+     static {
         HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
         logging.setLevel(HttpLoggingInterceptor.Level.BASIC);
 
