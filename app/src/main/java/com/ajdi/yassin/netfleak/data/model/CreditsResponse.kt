@@ -1,4 +1,4 @@
-package com.ajdi.yassin.netfleak.model
+package com.ajdi.yassin.netfleak.data.model
 
 import com.google.gson.annotations.SerializedName
 

@@ -1,5 +1,9 @@
-package com.ajdi.yassin.netfleak.model
+package com.ajdi.yassin.netfleak.data.model
 
+import androidx.room.ColumnInfo
+import androidx.room.Entity
+import androidx.room.Ignore
+import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
 import java.util.*
 
@@ -8,17 +12,22 @@ import java.util.*
  * On 17/10/2019
  * Email med.gharras@gmail.com
  */
+@Entity(tableName = "movie")
 data class Movie(
 
+    @PrimaryKey
+    @ColumnInfo(name = "id")
     @SerializedName("id")
     var id: Long = 0,
 
     @SerializedName("title")
     var title: String? = null,
 
+    @ColumnInfo(name = "poster_path")
     @SerializedName("poster_path")
     var posterPath: String? = null,
 
+    @ColumnInfo(name = "backdrop_path")
     @SerializedName("backdrop_path")
     var backdropPath: String? = null,
 
@@ -28,26 +37,34 @@ data class Movie(
     @SerializedName("popularity")
     var popularity: Double = 0.toDouble(),
 
+    @ColumnInfo(name = "vote_average")
     @SerializedName("vote_average")
     var voteAverage: Double = 0.toDouble(),
 
+    @ColumnInfo(name = "vote_count")
     @SerializedName("vote_count")
     var voteCount: Int = 0,
 
+    @ColumnInfo(name = "release_date")
     @SerializedName("release_date")
     var releaseDate: String? = null,
 
+    @ColumnInfo(name = "is_favorite")
     var isFavorite: Boolean = false,
 
+    @ColumnInfo(name = "genres")
     @SerializedName("genres")
     var genres: List<Genre>? = null,
 
+    @Ignore
     @SerializedName("videos")
     var trailersResponse: TrailersResponse? = null,
 
+    @Ignore
     @SerializedName("credits")
     var creditsResponse: CreditsResponse? = null,
 
+    @Ignore
     @SerializedName("reviews")
     var reviewsResponse: ReviewsResponse? = null
 ) {
