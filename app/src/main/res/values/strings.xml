@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">NetFleak</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="movie_category">Movie category</string>
+    <string name="_18">18+</string>
+    <string name="more_info">More info</string>
 </resources>
