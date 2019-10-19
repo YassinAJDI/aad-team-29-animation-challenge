@@ -18,7 +18,7 @@ import okhttp3.Response;
  * On 17/10/2019
  * Email med.gharras@gmail.com
  */
-class AuthInterceptor implements Interceptor {
+public class AuthInterceptor implements Interceptor {
     @Override
     public Response intercept(Chain chain) throws IOException {
 

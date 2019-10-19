@@ -2,8 +2,8 @@ package com.ajdi.yassin.netfleak.remote.api;
 
 import androidx.lifecycle.LiveData;
 
-import com.ajdi.yassin.netfleak.model.Movie;
-import com.ajdi.yassin.netfleak.model.MoviesResponse;
+import com.ajdi.yassin.netfleak.data.model.Movie;
+import com.ajdi.yassin.netfleak.data.model.MoviesResponse;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
