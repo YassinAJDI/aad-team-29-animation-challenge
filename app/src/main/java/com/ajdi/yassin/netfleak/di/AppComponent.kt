@@ -1,6 +1,7 @@
 package com.ajdi.yassin.netfleak.di
 
 import android.app.Application
+import com.ajdi.yassin.netfleak.NetFleakApp
 import dagger.BindsInstance
 import dagger.Component
 import dagger.android.support.AndroidSupportInjectionModule
@@ -14,6 +15,8 @@ import javax.inject.Singleton
 @Component(
     modules = [
         AppModule::class,
+        ViewModelModule::class,
+        MainActivityModule::class,
         AndroidSupportInjectionModule::class]
 )
 interface AppComponent {
@@ -26,5 +29,5 @@ interface AppComponent {
         fun build(): AppComponent
     }
 
-//    fun inject(githubApp: GithubApp)
+    fun inject(netFleakApp: NetFleakApp)
 }
