@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">NetFleak</string>
-    <string name="movie_title">Movie Title</string>
-    <string name="movie_category">Movie category</string>
+    <string name="movie_title">Joker</string>
+    <string name="movie_category">Drama</string>
     <string name="_18">18+</string>
     <string name="more_info">More info</string>
+    <string name="movie_trailer">Movie Trailer</string>
+    <string name="movie_description">Joker is a 2019 American psychological thriller film directed by Todd Phillips, who co-wrote the screenplay with Scott Silver. The film, based on DC Comics characters, stars Joaquin Phoenix as the Joker. An origin story set in 1981, the film follows Arthur Fleck, a failed stand-up comedian who turns to a life of crime and chaos in Gotham City</string>
 </resources>
